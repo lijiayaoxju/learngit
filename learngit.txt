@@ -5,3 +5,5 @@ git status 用于显示状态 是否track 是否commit
 git diff 用于显示修改 比较之前commit的版本和现在版本的区别
 git log 用于显示提交次数
 git reset --hard HEAD^ ^表示上一个版本 ^^上两个版本  HEADD~3 第倒数4个版本 0988（直接版本号）
+git checkout -- file 将文件还原为最近的一次commit和add中的文件
+git reset HEAD file file 将add中的文件恢复为
