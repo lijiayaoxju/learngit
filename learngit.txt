@@ -13,4 +13,6 @@ git pull -u origin master 将本地代码库传到github
 git checkout -b dev 新建dev分支 等同于 git branch dev \ git checkout dev
 git branch 查看分支
 git switch -c dev 新建并切换到dev分支
-
+git merge featurel 分支合并 冲突后到文件中修改
+git branch -d featurel 删除featurel分支
+git log --graph --pretty=oneline --abbrev-commit 显示分支合并情况
