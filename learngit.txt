@@ -8,3 +8,5 @@ git reset --hard HEAD^ ^表示上一个版本 ^^上两个版本  HEADD~3 第倒�
 git checkout -- file 将文件还原为最近的一次commit和add中的文件
 git reset HEAD file file 将add中的文件撤销
 git rm file 用于删除文件 之后需要通过commit一下
+git remote add origin https://github.com/lijiayaoxju.git 建立github代码库和本地代码库的关系
+git pull -u origin master 将本地代码库传到github
