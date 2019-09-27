@@ -16,3 +16,4 @@ git switch -c dev 新建并切换到dev分支
 git merge featurel 分支合并 冲突后到文件中修改
 git branch -d featurel 删除featurel分支
 git log --graph --pretty=oneline --abbrev-commit 显示分支合并情况
+创建了一个py文件
