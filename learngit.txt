@@ -1,1 +1,5 @@
 git init 用于建立仓库
+git add 用于添加到暂存区
+git commit 用于提交代码
+git status 用于显示状态 是否truck 是否commit
+git diff 用于显示修改 比较之前commit的版本和现在版本的区别
